@@ -1,23 +1,24 @@
-/**
-* This program calculates how many logs can fit on a truc.
-*
-* @author  Marlon Poddalgoda
-* @version 1.0
-* @since 2021-04-22
-*/
 import java.util.Scanner;
+/**
+ * This program calculates how many logs can fit on a truck.
+ *
+ * @author  Marlon Poddalgoda
+ * @version 1.0
+ * @since 2021-04-22
+ */
 
 public final class LogCarry {
-    /**
-    * This method calculates how many logs can go on a truck.
-    */
     private LogCarry() {
 
         // Throw an exception if this ever *is* called
         throw new AssertionError("Instantiating utility class.");
     }
-
+    /**
+    * This method calculates how many logs can go on a truck.
+    * @param args
+    */
     public static void main(final String[] args) {
+
         // Create new Scanner-type variable
         Scanner input = new Scanner(System.in);
 
